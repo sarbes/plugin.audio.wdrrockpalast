@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.audio.wdrrockpalast" name="WDR Rockpalast" version="1.1.1" provider-name="sarbes">
+    <requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.libwdr" version="1.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+		<language>de</language>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<source>https://github.com/prof-membrane/plugin.video.wdrrockpalast</source>
+        <summary lang="en">This add-on lists all videos of the WDR Rockpalast.</summary>
+        <description lang="en">This is a music add-on for the WDR Rockpalast (www1.wdr.de/mediathek/video/sendungen/rockpalast/index.html). The content may be geolocked.</description>
+        <summary lang="de">Dies ist ein Music Add-on für den WDR Rockpalast.</summary>
+        <description lang="de">Dieses Add-on listet alle Videos vom WDR Rockpalast (www1.wdr.de/mediathek/video/sendungen/rockpalast/index.html). Die Inhalte sind unter Umständen nur aus Deutschland erreichbar.</description>
+        <disclaimer lang="de">Dieses Add-on wird von keiner Sendeanstalt unterstützt und ist daher inoffiziell.</disclaimer>
+    </extension>
+</addon>
